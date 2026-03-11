@@ -7,14 +7,16 @@
 <title>Roundnet Event</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
   <div class="container">
-    <a class="navbar-brand fw-semibold" href="index.html">ETS GÖTEBORG</a>
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.avif" alt="ETS Göteborg" height="70">
+    </a>
 
     <button
       class="navbar-toggler"
@@ -40,9 +42,96 @@
     </div>
   </div>
 </nav>
-<main class="container py-5">
-  <h1 class="display-5 fw-bold">Contact</h1>
-  <p class="lead">Welcome to the event website.</p>
+<main>
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+
+      <div class="col-lg-8">
+
+        <h1 class="display-5 fw-bold mb-5">Contact</h1>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <h2 class="h5">EURA</h2>
+            <p class="fs-5">
+              <a href="mailto:info@europeanroundnetassociation.org">
+                info@europeanroundnetassociation.org
+              </a>
+            </p>
+          </div>
+
+          <div class="col-md-6 text-md-end">
+            <h2 class="h5">Roundnet Göteborg</h2>
+            <p class="fs-5">
+              <a href="mailto:styrelsenroundnetgoteborg@gmail.com">
+                styrelsenroundnetgoteborg@gmail.com
+              </a>
+            </p>
+          </div>
+
+        </div>
+
+        <h2 class="h4 mt-5 mb-4">Frequently Asked Questions</h2>
+
+        <div class="accordion" id="contactFaq">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1">
+                What is roundnet?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+              <div class="accordion-body">
+                Roundnet is a fast-paced sport played around a circular net.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2">
+                When should I arrive?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+              <div class="accordion-body">
+                Players should arrive before the tournament briefing begins.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3">
+                Is registration required?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+              <div class="accordion-body">
+                Yes, registration through Player Zone is required.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

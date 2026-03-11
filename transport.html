@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Roundnet Event</title>
+  <title>Roundnet Event</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
   <div class="container">
-    <a class="navbar-brand fw-semibold" href="index.html">ETS GÖTEBORG</a>
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.avif" alt="ETS Göteborg" height="70">
+    </a>
 
     <button
       class="navbar-toggler"
@@ -29,21 +32,100 @@
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Event</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Event</a></li>
         <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
         <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
         <li class="nav-item"><a class="nav-link" href="merch.html">Merchandise</a></li>
-        <li class="nav-item"><a class="nav-link" href="transport.html">Transport</a></li>
+        <li class="nav-item"><a class="nav-link active" href="transport.html">Transport</a></li>
         <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<main class="container py-5">
-  <h1 class="display-5 fw-bold">Transport</h1>
-  <p class="lead">Welcome to the event website.</p>
+
+<main>
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <h1 class="display-5 fw-bold mb-5">Transport</h1>
+
+        <h2 class="h4 mb-4">Public Transport</h2>
+
+        <h3 class="h5 mb-2">Tram</h3>
+        <p class="mb-4">
+          The tram network is the easiest way to move around the city. Several lines
+          connect the center with the venue area, and departures are frequent throughout
+          the day. A single ticket usually covers the full journey and makes tournament
+          mornings pleasantly low-stress.
+        </p>
+
+        <h3 class="h5 mb-2">Bus</h3>
+        <p class="mb-5">
+          Buses are a useful backup or complement to the tram system, especially if you
+          stay outside the central core. They are generally reliable, easy to combine with
+          other public transport, and often the simplest way to reach hotels, parking areas,
+          and the venue from nearby districts.
+        </p>
+
+        <h2 class="h4 mb-4">Getting to Gothenburg</h2>
+
+        <div class="row g-4 mb-5">
+
+          <div class="col-12">
+            <h3 class="h5">
+              <i class="bi bi-airplane me-2"></i>By Plane
+            </h3>
+            <p class="mb-0">
+              Gothenburg is well connected by air, and the airport offers several convenient
+              onward travel options into the city. Once you arrive, airport buses, rental cars,
+              and local transport make it straightforward to continue toward your hotel or the venue.
+            </p>
+          </div>
+
+          <div class="col-12">
+            <h3 class="h5">
+              <i class="bi bi-train-front me-2"></i>By Train
+            </h3>
+            <p class="mb-0">
+              Train travel is often the smoothest option if you are arriving from elsewhere in Sweden
+              or nearby countries. The central station is well placed, with strong public transport links
+              onward to the tournament area and most accommodation options.
+            </p>
+          </div>
+
+          <div class="col-12">
+            <h3 class="h5">
+              <i class="bi bi-car-front me-2"></i>By Car
+            </h3>
+            <p class="mb-0">
+              Arriving by car gives flexibility, especially if you are bringing equipment or travelling
+              as a group. Road access into Gothenburg is generally straightforward, though it is a good
+              idea to check parking plans in advance and allow a little extra time on busy tournament mornings.
+            </p>
+          </div>
+
+        </div>
+
+        <h2 class="h4 mb-4">Parking</h2>
+
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.google.com/maps?q=57.73755221867968,12.038404629925026&z=17&t=k&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            loading="lazy">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </main>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

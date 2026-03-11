@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Roundnet Event</title>
+  <title>Roundnet Event</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
   <div class="container">
-    <a class="navbar-brand fw-semibold" href="index.html">ETS GÖTEBORG</a>
+
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.avif" alt="ETS Göteborg" height="70">
+    </a>
 
     <button
       class="navbar-toggler"
@@ -29,27 +33,116 @@
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Event</a></li>
-        <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
-        <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
-        <li class="nav-item"><a class="nav-link" href="merch.html">Merchandise</a></li>
-        <li class="nav-item"><a class="nav-link" href="transport.html">Transport</a></li>
-        <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Event</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="venue.html">Venue</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="food.html">Food</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="merch.html">Merchandise</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="transport.html">Transport</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="accomodation.html">Accomodation</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
       </ul>
     </div>
+
   </div>
 </nav>
-<main class="container py-5">
 
-  <h1 class="display-5 fw-bold">Accommodation</h1>
-  <p class="lead">Welcome to the event website.</p>
+<main>
 
-  <div style="background:#f2f2f2;" class="p-4">
-    Grey content section
+  <div class="container py-5">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-8">
+
+        <h1 class="display-5 fw-bold mb-5">Accommodation</h1>
+
+        <h2 class="h4 mb-3">On-Site Camping</h2>
+
+        <p class="mb-4">
+          Camping will be available near the tournament venue. Basic facilities such as
+          toilets, water and shared areas will be available for players.
+        </p>
+
+        <div class="ratio ratio-16x9 mb-5">
+          <iframe
+            src="https://www.google.com/maps?q=57.737551111259805,12.039050137275138&z=17&t=k&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            loading="lazy">
+          </iframe>
+        </div>
+
+        <h2 class="h4 mb-4">Suggested Hotels</h2>
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <h3 class="h5">Hotel Aurora</h3>
+            <p>
+              A cozy hotel located near the city center with easy access to public
+              transport and restaurants.
+            </p>
+            <p>
+              <a href="#">View Hotel →</a>
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="h5">Harbor Stay</h3>
+            <p>
+              Modern rooms close to the waterfront with convenient connections
+              to the tournament venue.
+            </p>
+            <p>
+              <a href="#">View Hotel →</a>
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="h5">Parkside Lodge</h3>
+            <p>
+              A quiet hotel option located near green areas and parks, offering a
+              relaxed atmosphere for players and visitors.
+            </p>
+            <p>
+              <a href="#">View Hotel →</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
 </main>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

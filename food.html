@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Roundnet Event</title>
+  <title>Roundnet Event</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
   <div class="container">
-    <a class="navbar-brand fw-semibold" href="index.html">ETS GÖTEBORG</a>
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.avif" alt="ETS Göteborg" height="70">
+    </a>
 
     <button
       class="navbar-toggler"
@@ -29,9 +32,9 @@
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Event</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Event</a></li>
         <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
-        <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
+        <li class="nav-item"><a class="nav-link active" href="food.html">Food</a></li>
         <li class="nav-item"><a class="nav-link" href="merch.html">Merchandise</a></li>
         <li class="nav-item"><a class="nav-link" href="transport.html">Transport</a></li>
         <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
@@ -40,10 +43,68 @@
     </div>
   </div>
 </nav>
-<main class="container py-5">
-  <h1 class="display-5 fw-bold">Food</h1>
-  <p class="lead">Welcome to the event website.</p>
+
+<main>
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <h1 class="display-5 fw-bold mb-4">Food</h1>
+
+        <p class="mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <p class="fs-5 fw-semibold mb-4">
+          Price: 999 SEK per lunch
+        </p>
+
+        <p class="text-center mb-5">
+          <a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+            Order food →
+          </a>
+        </p>
+
+        <h3 class="h5 mb-4">Menu</h3>
+
+        <div class="row g-4 mb-5">
+
+          <div class="col-md-6">
+            <h4 class="h6 mb-3">Saturday</h4>
+
+            <p class="mb-2"><strong>Meat:</strong> Grilled chicken with roasted potatoes and herb sauce</p>
+            <p class="mb-2"><strong>Vegetarian:</strong> Halloumi bowl with couscous, tomatoes and lemon dressing</p>
+            <p class="mb-0"><strong>Vegan:</strong> Lentil stew with rice, parsley and roasted vegetables</p>
+          </div>
+
+          <div class="col-md-6">
+            <h4 class="h6 mb-3">Sunday</h4>
+
+            <p class="mb-2"><strong>Meat:</strong> Beef pasta bake with spinach and parmesan cream</p>
+            <p class="mb-2"><strong>Vegetarian:</strong> Mushroom risotto with peas and crispy onions</p>
+            <p class="mb-0"><strong>Vegan:</strong> Chickpea curry with basmati rice and fresh coriander</p>
+          </div>
+
+        </div>
+
+        <h3 class="h5 mb-3">
+          Beverages <small class="text-muted">(not included in food order)</small>
+        </h3>
+
+        <p class="mb-0">
+          Pepsi Max, Coffee, Celcius, Tea
+        </p>
+
+      </div>
+    </div>
+  </div>
+
 </main>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
