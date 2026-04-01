@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color:#f8f6f0;">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
 
   <title>Roundnet Event</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    :root { --bs-body-bg: #f8f6f0; }
+  </style>
 </head>
 
-<body>
+<body style="background-color:#f8f6f0;">
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-0 shadow-none">
+<nav class="navbar navbar-expand-lg sticky-top border-0 shadow-none" style="background-color:#f8f6f0;">
   <div class="container">
     <a class="navbar-brand d-inline-flex align-items-center" href="index.html">
-      <img src="https://ets.roundnetgoteborg.se/logo.avif" alt="ETS Göteborg" height="70">
-      <span class="ms-2 fw-semibold d-inline d-lg-none">ETS Göteborg</span>
+      <img src="https://ets.roundnetgoteborg.se/logo.avif" alt="ETS Göteborg" style="max-height:2.8rem;">
+      <span class="ms-2 fw-semibold d-inline">ETS Göteborg</span>
     </a>
 
     <button
@@ -58,7 +62,7 @@
 
         <div class="ratio ratio-16x9 mb-5">
           <iframe
-            src="https://www.google.com/maps?q=Kviberg+Park+Gothenburg&output=embed"
+            src="https://www.google.com/maps?q=57.737784612605026,12.037821751230037&t=k&z=16&output=embed"
             style="border:0;"
             allowfullscreen
             loading="lazy">
@@ -82,7 +86,7 @@
           <div class="col-md-6">
             <h3 class="h5 mb-3">Transport</h3>
             <p class="mb-1">
-              <strong>Nearest stop:</strong> Kviberg
+              <strong>Nearest stop:</strong> Kviberg or Kvibergsskolan
             </p>
             <p class="mb-1">
               <strong>Tram lines:</strong>
@@ -95,8 +99,8 @@
             <p class="mb-1">
               <strong>Bus lines:</strong>
               <span class="d-inline-flex gap-1">
-                <span class="badge rounded fw-semibold p-1" style="background-color:#d4d800; color:white; font-size:0.82rem;">56</span>
-                <span class="badge rounded fw-semibold p-1" style="background-color:#d4d800; color:white; font-size:0.82rem;">510</span>
+                <span class="badge rounded fw-semibold p-1" style="background-color:#d4d800; color:#1f1f1f; font-size:0.82rem;">56</span>
+                <span class="badge rounded fw-semibold p-1" style="background-color:#d4d800; color:#1f1f1f; font-size:0.82rem;">510</span>
               </span>
             </p>
             <p class="mb-0"><a href="transport.html">More details on the Transport page</a></p>
@@ -135,9 +139,11 @@
           </tbody>
         </table>
 
-        <div class="ratio ratio-16x9 mb-5">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1cyyVllA6gy57IWSgcI-VA3SwbZcZ_AI&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
-        </div>
+        <img 
+          src="images/kviberg-fields.jpg" 
+          class="img-fluid rounded mb-5 d-block mx-auto" 
+          alt="Kviberg fields"
+          style="max-height:27rem;">
 
         <hr class="my-5">
 
