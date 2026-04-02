@@ -1,3 +1,11 @@
 .bg-ets-blue {
   background-color: #2e469a;
 }
+
+@font-face {
+  font-family: 'NotoSansTanga';
+  src: url('notosanstanga.ttf') format('truetype');
+}
+.font-notosanstanga {
+  font-family: 'NotoSansTanga', sans-serif;
+}
